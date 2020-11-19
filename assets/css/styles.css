@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Pridi', serif; }
+
+.title-h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 400;
+  color: #272727;
+  padding: 8rem 0; }
+
+.section-header {
+  height: 10rem;
+  max-width: 160rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+  position: relative; }
+  .section-header__logo {
+    padding: 1rem;
+    display: inline-block; }
+    .section-header__logo img {
+      height: 7rem; }
+  .section-header__nav {
+    display: inline-block;
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%); }
+    .section-header__nav ul {
+      list-style: none; }
+      .section-header__nav ul > *:not(:first-child) {
+        margin-left: 30px; }
+      .section-header__nav ul li {
+        display: inline-block;
+        font-size: 1.7rem;
+        text-transform: uppercase; }
+
+.section-hero {
+  margin: 0 auto;
+  height: 75vh;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(39, 39, 39, 0) 70%, #272727); }
+  .section-hero__title {
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0); }
+    .section-hero__title--main {
+      font-size: 8rem;
+      color: #FBFCD7;
+      text-shadow: 0 0px 6px #ebf128;
+      margin-bottom: 0; }
+    .section-hero__title--paragraph {
+      text-align: center;
+      font-size: 2.8rem;
+      color: #FBFCD7; }
+  .section-hero__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+    .section-hero__video--content {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
+
+.section-events {
+  width: 114rem;
+  margin: 0 auto; }
+  .section-events__grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 40% 1fr; }
+    .section-events__grid--standard {
+      background-color: lightgray;
+      height: 45rem;
+      position: relative; }
+      .section-events__grid--standard .btn-std {
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        font-size: 1.8em; }
+    .section-events__grid--special {
+      background-color: gray; }
+
+.section-program {
+  width: 114rem;
+  margin: 0 auto; }
+  .section-program__grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 50% 1fr; }
+    .section-program__grid--workhours {
+      justify-self: center; }
+      .section-program__grid--workhours .workhours-title {
+        text-align: center; }
+        .section-program__grid--workhours .workhours-title h3 {
+          font-size: 2em;
+          padding-bottom: 20px; }
+      .section-program__grid--workhours table tr td {
+        font-size: 1.5em; }
+      .section-program__grid--workhours table tr td:first-child {
+        padding-right: 100px; }
