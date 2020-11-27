@@ -227,6 +227,7 @@ body {
         visibility: hidden;
         transition: all .4s;
     } 
+
     .pop-up:target{
       opacity: 1;
       visibility: visible;
