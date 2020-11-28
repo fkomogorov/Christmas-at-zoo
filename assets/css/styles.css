@@ -198,6 +198,7 @@ body {
 .section-gallery {
   width: 114rem;
   margin: 0 auto; 
+  padding-bottom: 10rem;
 }
   .section-gallery__grid {
     display: grid;
@@ -272,3 +273,34 @@ body {
         background-color: #999966;
         opacity: 50%;
       }
+footer {
+  background-color:  #3b5b3b;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 12rem;
+}
+  .footer-logo {
+    position: relative;
+    
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 0;
+  }
+  .footer-column {
+    font-size: 1.75em;
+    line-height: 3vh;
+    color: #D7C6B4;
+    margin-top: 5%;
+  }
+    .footer_bottom {
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      font-size: 1.75em;
+      line-height: 3vh;
+      color: #D7C6B4;
+      margin-top: 3%;
+    }
